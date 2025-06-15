@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
 [![PaddleOCR](https://img.shields.io/badge/PaddleOCR-3.0+-orange.svg)](https://github.com/PaddlePaddle/PaddleOCR)
-[![License](https://img.shields.io/badge/License-APACHE-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 *레이아웃 감지, OCR, 도표-참조 자동 매핑을 통한 지능형 PDF 처리*
 
@@ -447,7 +447,12 @@ pytest tests/
 
 **⚖️ 라이선스**
 
-이 프로젝트는 [Apache License 2.0](LICENSE) 하에 배포됩니다.
+이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.
+
+**단, 다음과 같은 오픈소스 라이브러리는 Apache License 2.0을 따릅니다:**
+- PaddleOCR (https://github.com/PaddlePaddle/PaddleOCR)
+
+PaddleOCR의 LICENSE 및 NOTICE 파일은 프로젝트 루트의 NOTICE 파일에서 확인할 수 있습니다.
 
 ---
 </div>
