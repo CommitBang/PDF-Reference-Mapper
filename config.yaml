@@ -1,0 +1,53 @@
+models:
+  marker:
+    gpu_memory: 5
+    device: "auto"  # auto, cuda, cpu
+    output_format: "markdown"
+    extract_images: true
+    max_pages: 1000
+  
+  yolov8:
+    model_path: "yolov8n.pt"
+    confidence: 0.3
+    gpu_memory: 3
+  
+  bert:
+    model_name: "distilbert/distilbert-base-uncased"
+    batch_size: 16
+    gpu_memory: 4
+  
+  sentence_transformer:
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"
+    gpu_memory: 2
+
+llm_services:
+  ollama:
+    enabled: true
+    base_url: "http://localhost:11434"
+    model: "llama3"
+    temperature: 0.7
+    max_tokens: 2048
+    timeout: 60
+    retry_attempts: 3
+    retry_delay: 1
+
+reference_mapper:
+  use_llm: false
+
+hardware:
+  gpu_device: 0
+  total_gpu_memory: 24
+  cpu_cores: 8
+  ram_limit: 32
+
+api:
+  host: "0.0.0.0"
+  port: 12321
+  max_file_size: 52428800  # 50MB
+  upload_timeout: 300
+
+processing:
+  quality_level: "high"
+  enable_fallback: true
+  temp_dir: "./temp"
+  log_level: "INFO"
