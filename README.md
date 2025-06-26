@@ -300,6 +300,9 @@ api:
 - **[기여 가이드라인](docs/CONTRIBUTING.md)**: 코드 스타일, 커밋 메시지 규칙, PR 절차 등 기여에 필요한 모든 정보를 담고 있습니다.
 - **[브랜치 전략](docs/BRANCH_STRATEGY.md)**: 프로젝트에서 사용하는 Git 브랜치 전략에 대해 설명합니다.
 
+## Contributors
+- jaeho0718 (이재호)
+
 
 ---
 
